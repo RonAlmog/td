@@ -8,16 +8,14 @@ import { ButtonsService } from '../services/buttons.service';
 })
 export class Test01Component implements OnInit {
   buttons = [];
-  mylabel: string='demo.title';
   constructor(private buttonsService: ButtonsService) { }
 
   ngOnInit() {
     this.buttonsService.getButtons().subscribe(
-      data=> {
+      data => {
         this.buttons = data;
-        console.log('buttons', this.buttons);
       },
-      error=>{
+      error => {
         console.log('Error:', error);
       }
     );
