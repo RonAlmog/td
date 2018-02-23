@@ -1,14 +1,15 @@
 <div class="container">
   <div class="row text-center">
     <div class="col-xs-12">
-      <h1>Book an Appointment</h1>
-      <h5>Our Investing Topics</h5>
-      <h5>Pick a topic, then we'll find a time and place</h5>
+      <h1>{{'titles.book' | translate}}</h1>
+      <h5>{{'titles.invest' | translate}}</h5>
+      <h5>{{'titles.pickatopic' | translate}}</h5>
     </div>
   </div>
   <div class="row text-center">
       <div class="col-xs-12 col-sm-6  top10" *ngFor="let button of buttons">
-          <button class="btn btn-large btn-outline btn-block btn-primary">{{button.text}}</button>
+          <!-- <button class="btn btn-large btn-outline btn-block btn-primary">{{button.text}}</button> -->
+          <button class="btn btn-large btn-outline btn-block btn-primary">{{button.code | translate}}</button>
       </div>
       
   </div>

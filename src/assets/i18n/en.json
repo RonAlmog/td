@@ -1,0 +1,15 @@
+{
+  "titles": {
+      "book": "Book an Appointment",
+      "invest": "Our Investing Topics",
+      "pickatopic": "Pick a topic, then we'll find a time and place"
+  },
+  "btn":{
+     "1": "Open a chequing account",
+     "2": "Open a savings account",
+     "3": "Open a U.S. Dollar account",
+     "4": "Review my everyday banking needs",
+     "5": "Switch to TD",
+     "6": "Apply for Overdraft Protection"
+  }
+}

@@ -8,6 +8,7 @@ import { ButtonsService } from '../services/buttons.service';
 })
 export class Test01Component implements OnInit {
   buttons = [];
+  mylabel: string='demo.title';
   constructor(private buttonsService: ButtonsService) { }
 
   ngOnInit() {
