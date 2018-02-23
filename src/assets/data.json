@@ -1,8 +1,8 @@
 [
-    { "text": "Open a chequing account" },
-    { "text": "Open a savings account" },
-    { "text": "Open a U.S. Dollar account" },
-    { "text": "Review my everyday banking needs" },
-    { "text": "Switch to TD" },
-    { "text": "Apply for Overdraft Protection" }
+    { "text": "Open a chequing account", "code":"btn.1" },
+    { "text": "Open a savings account", "code":"btn.2" },
+    { "text": "Open a U.S. Dollar account", "code":"btn.3" },
+    { "text": "Review my everyday banking needs", "code":"btn.4" },
+    { "text": "Switch to TD", "code":"btn.5" },
+    { "text": "Apply for Overdraft Protection", "code":"btn.6" }
 ]

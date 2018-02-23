@@ -1,0 +1,15 @@
+{
+  "titles": {
+    "book": "Prenez rendez-vous",
+    "invest": "Nos sujets d'investissement",
+    "pickatopic": "Choisissez un sujet, puis nous trouverons une heure et un lieu"
+  },
+  "btn":{
+     "1": "Ouvrir un compte-chèques",
+     "2": "Ouvre un compte de secours",
+     "3": "Ouvrir un compte en dollars américains",
+     "4": "Revoir mes besoins bancaires quotidiens, Revoir mes besoins bancaires quotidiens, Revoir mes besoins bancaires quotidiens",
+     "5": "Passer à TD",
+     "6": "Demande de protection de découvert"
+  }
+}

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ButtonsService } from '../services/buttons.service';
 
 @Component({
   selector: 'app-test01',
@@ -6,10 +7,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./test01.component.scss']
 })
 export class Test01Component implements OnInit {
-
-  constructor() { }
+  buttons = [];
+  constructor(private buttonsService: ButtonsService) { }
 
   ngOnInit() {
+    this.buttonsService.getButtons().subscribe(
+      data => {
+        this.buttons = data;
+      },
+      error => {
+        console.log('Error:', error);
+      }
+    );
   }
 
 }
