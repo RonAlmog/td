@@ -6,12 +6,10 @@
       <h5>{{'titles.pickatopic' | translate}}</h5>
     </div>
   </div>
-  <div class="row text-center">
-      <div class="col-xs-12 col-sm-6  top10" *ngFor="let button of buttons">
-          <!-- <button class="btn btn-large btn-outline btn-block btn-primary">{{button.text}}</button> -->
-          <button class="btn btn-large btn-outline btn-block btn-primary">{{button.code | translate}}</button>
-      </div>
-      
+  <div class="row text-center"  sameHeight="btn">
+    <div class="col-xs-12 col-sm-6  top10" *ngFor="let button of buttons">
+        <button class="btn btn-large btn-outline btn-block btn-primary">{{button.code | translate}}</button>
+    </div>
   </div>
   <div class="row text-center top10">
     <div class="col-xs-12 top10">

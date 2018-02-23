@@ -11,6 +11,7 @@ import { Test01Component } from './test01/test01.component';
 import { Test02Component } from './test02/test02.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { ButtonsService } from './services/buttons.service';
+import { SameHeightDirective } from './test01/directives/same-height';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { ButtonsService } from './services/buttons.service';
     AppComponent,
     HomeComponent,
     Test01Component,
-    Test02Component
+    Test02Component,
+    SameHeightDirective,
   ],
   imports: [
     BrowserModule,
